@@ -1,0 +1,84 @@
+.account-page {
+  margin: 60px 0;
+}
+
+.account-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.account-column {
+  flex: 1;
+}
+
+.account-column h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.account-column form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-top: 10px;
+}
+
+.account-column form div label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  row-gap: 5px;
+}
+
+.account-column form .remember {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 12px;
+}
+
+.account-column form .required {
+  color: #d50000;
+  font-weight: bold;
+}
+
+.account-column form .remember label {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.account-column form .remember button {
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: none;
+}
+
+.account-column form .remember .register {
+  background-color: #d50000;
+  border-color: #d50000;
+}
+
+.account-column form .remember .login {
+  background-color: #0600b7;
+  border-color: #0600b7;
+}
+
+.account-column form .remember button:hover {
+  outline: 2px solid #000;
+  outline-offset: 3px;
+}
+
+.account-column form .form-link {
+  color: #d50000;
+  font-size: 14px;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .account-wrapper {
+    flex-direction: column;
+  }
+}

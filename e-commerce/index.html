@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <!--! Glide.js Css CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css"
+    />
+    <!--! Boostrap Icons CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!--! header start  -->
+    <header>
+      <div class="global-notification">
+        <div class="container">
+          <p>
+            TATİL ÖZEL: TÜM KIŞ KOLEKSİYONUNDA %50'YE VARAN İNDİRİMLER – ACELE
+            ET!
+            <a href="shop.html">ŞİMDİ AL</a>
+          </p>
+        </div>
+      </div>
+      <div class="header-row">
+        <div class="container">
+          <div class="header-wrapper">
+            <div class="header-mobile">
+              <i class="bi bi-list" id="btn-menu"></i>
+            </div>
+            <div class="header-left">
+              <a href="index.html" class="logo">CANOVA</a>
+            </div>
+            <div class="header-center" id="sidebar">
+              <nav class="navigation">
+                <ul class="menu-list">
+                  <li class="menu-list-item">
+                    <a href="index.html" class="menu-link active"> Anasayfa </a>
+                  </li>
+                  <li class="menu-list-item megamenu-wrapper">
+                    <a href="shop.html" class="menu-link"> Alışveriş </a>
+                  </li>
+                  <li class="menu-list-item">
+                    <a href="blog.html" class="menu-link"> Blog </a>
+                  </li>
+                  <li class="menu-list-item">
+                    <a href="contact.html" class="menu-link"> İletişim </a>
+                  </li>
+                </ul>
+              </nav>
+              <i class="bi-x-circle" id="close-sidebar"></i>
+            </div>
+            <div class="header-right">
+              <div class="header-right-links">
+                <a href="account.html" class="header-account">
+                  <i class="bi bi-person-fill"></i>
+                </a>
+                <button class="search-button">
+                  <i class="bi bi-search"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-heart-fill"></i>
+                </a>
+                <div class="header-cart">
+                  <a href="cart.html" class="header-cart-link">
+                    <i class="bi bi-bag"></i>
+                    <span class="header-cart-count">0</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--! header end  -->
+
+    <!--! modal search start  -->
+    <div class="modal-search">
+      <div class="modal-wrapper">
+        <div class="modal-top">
+          <h3 class="modal-title">Ürünleri Ara</h3>
+          <p class="modal-text">
+            Aradığınız ürünleri görmek için arama çubuğuna yazın.
+          </p>
+        </div>
+        <div class="modal-bottom">
+          <form class="search-form">
+            <input type="text" placeholder="Ürün Ara" />
+            <button>
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+          <div class="search-results">
+            <div class="search-heading">
+              <h3>ÜRÜN SONUÇLARI</h3>
+            </div>
+            <div class="results">
+              <a href="#" class="result-item">
+                <img
+                  src="img/products/product1/1.png"
+                  class="search-thumb"
+                  alt=""
+                />
+                <div class="search-info">
+                  <h4></h4>
+                  <span class="search-sku"></span>
+                  <span class="search-price"></span>
+                </div>
+              </a>
+              <a href="#" class="result-item">
+                <img
+                  src="img/products/product2/1.png"
+                  class="search-thumb"
+                  alt=""
+                />
+                <div class="search-info">
+                  <h4></h4>
+                  <span class="search-sku"></span>
+                  <span class="search-price"></span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <i class="bi bi-x-lg" id="close-search"></i>
+      </div>
+    </div>
+    <!--! modal search end  -->
+
+    <!--! slider start   -->
+    <section class="slider">
+      <div class="slider-elements">
+        <div class="slider-item fade">
+          <div class="slider-image">
+            <img src="img/slider/slider1.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="container">
+            <p class="slider-title">TATİL ÖZEL</p>
+            <h2 class="slider-heading">%50'YE VARAN İNDİRİM</h2>
+            <a href="shop.html" class="btn btn-lg btn-primary">Şimdi Keşfet</a>
+          </div>
+        </div>
+        <div class="slider-item fade">
+          <div class="slider-image">
+            <img src="img/slider/slider2.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="container">
+            <p class="slider-title">TATİL ÖZEL</p>
+            <h2 class="slider-heading">%50'YE VARAN İNDİRİM</h2>
+            <a href="shop.html" class="btn btn-lg btn-primary">Şimdi Keşfet</a>
+          </div>
+        </div>
+        <div class="slider-item fade">
+          <div class="slider-image">
+            <img src="img/slider/slider3.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="container">
+            <p class="slider-title">TATİL ÖZEL</p>
+            <h2 class="slider-heading">%50'YE VARAN İNDİRİM</h2>
+            <a href="shop.html" class="btn btn-lg btn-primary">Şimdi Keşfet</a>
+          </div>
+        </div>
+        <div class="slider-buttons">
+          <button onclick="plusSlide(-1)">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button onclick="plusSlide(1)">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+        <div class="slider-dots">
+          <button class="slider-dot active" onclick="currentSlide(1)">
+            <span></span>
+          </button>
+          <button class="slider-dot" onclick="currentSlide(2)">
+            <span></span>
+          </button>
+          <button class="slider-dot" onclick="currentSlide(3)">
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--! slider end   -->
+
+    <!--! categories start  -->
+    <section class="categories">
+      <div class="container">
+        <div class="section-title">
+          <h2>Tüm Kategoriler</h2>
+        </div>
+        <ul class="category-list">
+          <li class="category-item">
+            <a href="#">
+              <img
+                src="img/categories/categories1.png"
+                alt=""
+                class="category-image"
+              />
+              <span class="category-title">Akıllı Telefon</span>
+            </a>
+          </li>
+          <li class="category-item">
+            <a href="#">
+              <img
+                src="img/categories/categories2.png"
+                alt=""
+                class="category-image"
+              />
+              <span class="category-title"> Bilgisayar </span>
+            </a>
+          </li>
+          <li class="category-item">
+            <a href="#">
+              <img
+                src="img/categories/categories3.png"
+                alt=""
+                class="category-image"
+              />
+              <span class="category-title"> Kulaklık </span>
+            </a>
+          </li>
+          <li class="category-item">
+            <a href="#">
+              <img
+                src="img/categories/categories4.png"
+                alt=""
+                class="category-image"
+              />
+              <span class="category-title"> Mobilya </span>
+            </a>
+          </li>
+          <li class="category-item">
+            <a href="#">
+              <img
+                src="img/categories/categories5.png"
+                alt=""
+                class="category-image"
+              />
+              <span class="category-title"> Moda </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--! categories end  -->
+
+    <!--! campaigns start -->
+    <div class="section-title">
+      <h2>Kampanyalar</h2>
+    </div>
+    <section class="campaigns">
+      <div class="container">
+        <div class="campaigns-wrapper">
+          <div class="campaign-item">
+            <h3 class="campaign-title">
+              Sınırlı Stok <br />
+              Büyük Fırsatlar! <br />
+            </h3>
+            <p class="campaign-desc">
+              Stoklarla sınırlı özel indirimleri hemen keşfedin!
+            </p>
+            <a href="shop.html" class="btn btn-primary">
+              Tümünü Görüntüle
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="campaign-item">
+            <h3 class="campaign-title">Kargo Bizden! <br /></h3>
+            <p class="campaign-desc">
+              5000 TL ve üzeri alışverişlerde ücretsiz kargo fırsatını
+              yakalayın!
+            </p>
+            <a href="shop.html" class="btn btn-primary">
+              Tümünü Görüntüle
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="campaigns-wrapper">
+          <div class="campaign-item">
+            <h3 class="campaign-title">Sepette Ekstra İndirim! <br /></h3>
+            <p class="campaign-desc">
+              Sepetinize ekleyin, CAN100 koduyla anında ekstra 100 TL indirim
+              kazanın!
+            </p>
+            <a href="shop.html" class="btn btn-primary">
+              Tümünü Görüntüle
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="campaign-item">
+            <h3 class="campaign-title">
+              Büyük Kış <br />
+              İndirimi Başladı! <br />
+            </h3>
+            <p class="campaign-desc">
+              En sevdiğiniz ürünlerde %50'ye varan fırsatları kaçırmayın!
+            </p>
+            <a href="shop.html" class="btn btn-primary">
+              Tümünü Görüntüle
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! campaigns end -->
+
+    <!--! campaign single start  -->
+    <section class="campaign-single">
+      <div class="container">
+        <div class="campaign-wrapper">
+          <h2>Tatil Özel</h2>
+          <strong>%50 İNDİRİM</strong>
+          <span></span>
+          <a href="#" class="btn btn-lg">
+            ŞİMDİ SATIN AL!
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--! campaign single end  -->
+
+    <!--! policy start  -->
+    <section class="policy">
+      <div class="container">
+        <ul class="policy-list">
+          <li class="policy-item">
+            <i class="bi bi-truck"></i>
+            <div class="policy-texts">
+              <strong>HIZLI TESLİMAT</strong>
+              <span>45 TL</span>
+            </div>
+          </li>
+          <li class="policy-item">
+            <i class="bi bi-headset"></i>
+            <div class="policy-texts">
+              <strong>7/24 DESTEK</strong>
+              <span>24 Saat Online Hizmet</span>
+            </div>
+          </li>
+          <li class="policy-item">
+            <i class="bi bi-arrow-clockwise"></i>
+            <div class="policy-texts">
+              <strong> 30 GÜN İADE</strong>
+              <span>30 Gün İçinde İade Etmeniz Yeterli</span>
+            </div>
+          </li>
+          <li class="policy-item">
+            <i class="bi bi-credit-card"></i>
+            <div class="policy-texts">
+              <strong> ÖDEME YÖNTEMİ</strong>
+              <span>Güvenli Ödeme</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--! policy end  -->
+
+    <!--! footer start  -->
+    <footer class="footer">
+      <div class="widgets-row">
+        <div class="container">
+          <div class="footer-widgets">
+            <div class="brand-info">
+              <div class="footer-logo">
+                <a href="index.html" class="logo">CANOVA</a>
+              </div>
+              <div class="footer-desc">
+                <p>
+                  Müşteri memnuniyetini önceliğimiz olarak benimsiyor, güvenli
+                  alışveriş deneyimi sunmak için şeffaf iletişim ve adil ticaret
+                  politikalarıyla hizmet veriyoruz.
+                </p>
+              </div>
+              <div class="footer-contact">
+                <p>
+                  <a href="tel:555 555 55 55">(+90) 1234 5678 90</a>
+                  <span>–</span>
+                  <a href="mailto:info@example.com">can@ari.com</a>
+                </p>
+              </div>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Bilgi</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Hakkımızda</a>
+                </li>
+                <li>
+                  <a href="#">Gizlilik Poltikası</a>
+                </li>
+                <li>
+                  <a href="#">İade Politikası</a>
+                </li>
+                <li>
+                  <a href="#">Teslimat Politikası</a>
+                </li>
+              </ul>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Hesap</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Kontrol Paneli</a>
+                </li>
+                <li>
+                  <a href="#">Siparişlerim </a>
+                </li>
+                <li>
+                  <a href="#">Hesap Detayları</a>
+                </li>
+                <li>
+                  <a href="#">Siparişlerimi Takip Et</a>
+                </li>
+              </ul>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Alışveriş</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">En Çok Satanlar</a>
+                </li>
+                <li>
+                  <a href="#">İndirim Oranı</a>
+                </li>
+                <li>
+                  <a href="#">En Son Ürün Sayısı</a>
+                </li>
+                <li>
+                  <a href="#">İndirimli Ürünler</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-row">
+        <div class="container">
+          <div class="footer-copyright">
+            <div class="site-copyright">
+              <p>
+                Telif Hakkı 2024 © E-Commerce Theme. Tüm hakları saklıdır. Can
+                ARI tarafından geliştirildi.
+              </p>
+            </div>
+            <div class="footer-menu">
+              <ul class="footer-menu-list">
+                <li class="list-item">
+                  <a href="#">Gizlilik Poltikası</a>
+                </li>
+                <li class="list-item">
+                  <a href="#">Şartlar ve koşullar</a>
+                </li>
+                <li class="list-item">
+                  <a href="#">iade politikası</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--! footer end  -->
+
+    <!-- javascript  -->
+    <script src="js/main.js" type="module"></script>
+    <script src="js/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="js/glide.js" type="module"></script>
+  </body>
+</html>

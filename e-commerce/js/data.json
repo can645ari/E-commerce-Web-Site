@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "name": "Çiçek Desenli Kalın Yün Triko Ceket",
+        "gender":"Kadın",
+        "description": "Doğanın eşsiz güzelliğini desenleri ve renkleriyle üzerinde taşıyan triko ceket, manşet detayı ile öne çıkıyor. Kalındır ve yüksek oranda yün içermektedir.<br><br><b>Kumaş İçeriği:</b> %80 Yün %20 Akrilik <br><b>Desen:</b> Desenli<br><b>Yaka Tipi:</b> Dik Yaka<br><b>Kol Tipi:</b> Uzun Kollu<br><b>Ürün Boyu:</b> 74 cm <br><b>Kalıp Tipi:</b> Rahat Kalıp<br><b>Mankenin Giydiği Beden:</b> M<br><b>Manken Ölçüleri:</b><br><b>Boy:</b> 174 cm<br><b>Göğüs:</b> 83 cm<br><b>Bel:</b> 62 cm<br><b>Basen:</b> 93 cm",
+        "price": {
+            "oldPrice": 1650.00,
+            "newPrice": 825.00
+        },
+        "discount": 50,
+        "img": {
+            "singleImage": "img/products/product1/1.png",
+            "thumbs": [
+                "img/products/product1/1.png",
+                "img/products/product1/2.png",
+                "img/products/product1/3.png"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "V Yaka Kolsuz Triko Süveter",
+        "gender":"Erkek",
+        "description":"Triko süveter, modern tasarımı ile takımlamalarınıza eşlik ediyor. Yumuşak dokusu ile son derece konforlu hissetmenizi sağlayacak bu v yaka tasarım, lastik örgülü yakası, kol ağızları ve etek ucu ile bütünlük kazanıyor.<br><b>Kumaş İçeriği:</b> %90 Akrilik %10 Yün<br><b>Desen:</b> Düz<br><b>Yaka Tipi:</b> V Yaka <br><b>Kol Tipi:</b> Sıfır Kol<br><b>Ürün Boyu:</b> 69 cm<br><b>Kalıp Tipi:</b> Standart Kalıp<br><b>Mankenin Giydiği Beden:</b> L<br><b>Manken Ölçüleri:</b><br><b>Boy:</b> 195 cm<br><b>Göğüs:</b> 98 cm<br><b>Bel:</b> 94 cm",
+        "price": {
+            "oldPrice": 2080.00,
+            "newPrice": 1040.00
+        },
+        "discount": 50,
+        "img": {
+            "singleImage": "img/products/product2/1.png",
+            "thumbs": [
+                "img/products/product2/1.png",
+                "img/products/product2/2.png",
+                "img/products/product2/3.png"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Yarım Boğazlı Triko Kazak",
+        "gender":"Erkek",
+        "description":"Yarım balıkçı yaka, uzun kollu, yakası, manşetleri ve etek ucu ince lastik örgülü basic triko kazak.<br><b>Kumaş İçeriği:</b> %70 Akrilik %30 Yün<br><b>Desen:</b> Düz<br><b>Yaka Tipi:</b> Yarım Balıkçı Yaka <br><b>Kol Tipi:</b> Uzun Kol<br><b>Ürün Boyu:</b> 69 cm<br><b>Kalıp Tipi:</b> Standart Kalıp<br><b>Mankenin Giydiği Beden:</b> L<br><b>Manken Ölçüleri:</b><br><b>Boy:</b> 188 cm<br><b>Göğüs:</b> 100 cm<br><b>Bel:</b> 78 cm",
+        "price": {
+            "oldPrice": 1650.00,
+            "newPrice": 825.00
+        },
+        "discount": 50,
+        "img": {
+            "singleImage": "img/products/product3/1.png",
+            "thumbs": [
+                "img/products/product3/1.png",
+                "img/products/product3/2.png",
+                "img/products/product3/3.png"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Erkek Yarım Boğazlı Triko Kazak",
+        "gender":"Erkek",
+        "description":"Yarım balıkçı yaka, uzun kollu, yakası, manşetleri ve etek ucu ince lastik örgülü basic triko kazak.<br><b>Kumaş İçeriği:</b> %70 Akrilik %30 Yün<br><b>Desen:</b> Düz<br><b>Yaka Tipi:</b> Yarım Balıkçı Yaka <br><b>Kol Tipi:</b> Uzun Kol<br><b>Ürün Boyu:</b> 69 cm<br><b>Kalıp Tipi:</b> Standart Kalıp<br><b>Mankenin Giydiği Beden:</b> L<br><b>Manken Ölçüleri:</b><br><b>Boy:</b> 191 cm<br><b>Göğüs:</b> 92 cm<br><b>Bel:</b> 86 cm",
+        "price": {
+            "oldPrice": 1800.00,
+            "newPrice": 900.00
+        },
+        "discount": 50,
+        "img": {
+            "singleImage": "img/products/product4/1.png",
+            "thumbs": [
+                "img/products/product4/1.png",
+                "img/products/product4/2.png",
+                "img/products/product4/3.png"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Fermuarlı Blok Desenli Triko Hırka",
+        "gender":"Erkek",
+        "description":"Yün karışımlı iplikten üretilen desenli hırka. Sıfır yakalı, uzun kollu, yakası, manşetleri ve etek ucu lastik örgülü, tam boy fermuar kapamasıyla kolaylık sağlayan triko hırka.<br><br><b>Kumaş İçeriği:</b> %80 Yün %20 Akrilik<br><b>Desen:</b> Desenli<br><b>Yaka Tipi:</b> Sıfır Yaka<br><b>Kol Tipi:</b> Uzun Kol<br><b>Ürün Boyu:</b> 70 cm<br><b>Kalıp Tipi:</b> Standart Kalıp<br><b>Mankenin Giydiği Beden:</b> L<br><b>Manken Ölçüleri:</b><br><b>Boy:</b> 189 cm<br><b>Göğüs:</b> 98 cm<br><b>Bel:</b> 77 cm",
+        "price": {
+            "oldPrice": 2050.00,
+            "newPrice": 1025.00
+        },
+        "discount": 50,
+        "img": {
+            "singleImage": "img/products/product5/1.png",
+            "thumbs": [
+                "img/products/product5/1.png",
+                "img/products/product5/2.png",
+                "img/products/product5/3.png"
+            ]
+        }
+    }
+]

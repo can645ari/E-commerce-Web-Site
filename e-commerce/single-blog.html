@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Blog</title>
+    <!--! Boostrap Icons CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!--! header start  -->
+    <header>
+      <div class="global-notification">
+        <div class="container">
+          <p>
+            TATİL ÖZEL: TÜM KIŞ KOLEKSİYONUNDA %50'YE VARAN İNDİRİMLER – ACELE
+            ET!
+            <a href="shop.html">ŞİMDİ AL</a>
+          </p>
+        </div>
+      </div>
+      <div class="header-row">
+        <div class="container">
+          <div class="header-wrapper">
+            <div class="header-mobile">
+              <i class="bi bi-list" id="btn-menu"></i>
+            </div>
+            <div class="header-left">
+              <a href="index.html" class="logo">CANOVA</a>
+            </div>
+            <div class="header-center" id="sidebar">
+              <nav class="navigation">
+                <ul class="menu-list">
+                  <li class="menu-list-item">
+                    <a href="index.html" class="menu-link active"> Anasayfa </a>
+                  </li>
+                  <li class="menu-list-item megamenu-wrapper">
+                    <a href="shop.html" class="menu-link"> Alışveriş </a>
+                  </li>
+                  <li class="menu-list-item">
+                    <a href="blog.html" class="menu-link"> Blog </a>
+                  </li>
+                  <li class="menu-list-item">
+                    <a href="contact.html" class="menu-link"> İletişim </a>
+                  </li>
+                </ul>
+              </nav>
+              <i class="bi-x-circle" id="close-sidebar"></i>
+            </div>
+            <div class="header-right">
+              <div class="header-right-links">
+                <a href="account.html" class="header-account">
+                  <i class="bi bi-person-fill"></i>
+                </a>
+                <button class="search-button">
+                  <i class="bi bi-search"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-heart-fill"></i>
+                </a>
+                <div class="header-cart">
+                  <a href="cart.html" class="header-cart-link">
+                    <i class="bi bi-bag"></i>
+                    <span class="header-cart-count">0</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--! header end  -->
+
+    <!--! modal search start  -->
+    <div class="modal-search">
+      <div class="modal-wrapper">
+        <div class="modal-top">
+          <h3 class="modal-title">Ürünleri Ara</h3>
+          <p class="modal-text">
+            Aradığınız ürünleri görmek için arama çubuğuna yazın.
+          </p>
+        </div>
+        <div class="modal-bottom">
+          <form class="search-form">
+            <input type="text" placeholder="Ürün Ara" />
+            <button>
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+          <div class="search-results">
+            <div class="search-heading">
+              <h3>ÜRÜN SONUÇLARI</h3>
+            </div>
+            <div class="results">
+              <a href="#" class="result-item">
+                <img
+                  src="img/products/product1/1.png"
+                  class="search-thumb"
+                  alt=""
+                />
+                <div class="search-info">
+                  <h4></h4>
+                  <span class="search-sku"></span>
+                  <span class="search-price"></span>
+                </div>
+              </a>
+              <a href="#" class="result-item">
+                <img
+                  src="img/products/product2/1.png"
+                  class="search-thumb"
+                  alt=""
+                />
+                <div class="search-info">
+                  <h4></h4>
+                  <span class="search-sku"></span>
+                  <span class="search-price"></span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <i class="bi bi-x-lg" id="close-search"></i>
+      </div>
+    </div>
+    <!--! modal search end  -->
+
+    <!--! single blog start  -->
+    <section class="single-blog">
+      <div class="container">
+        <article>
+          <figure>
+            <a href="#">
+              <img src="img/blogs/blog1.jpg" alt="" />
+            </a>
+          </figure>
+          <div class="blog-wrapper">
+            <div class="blog-meta">
+              <div class="blog-category">
+                <a href="#"> E-Ticaret & Alışveriş Deneyimleri </a>
+              </div>
+              <div class="blog-date">
+                <a href="#"> 25 Kasım 2024 </a>
+              </div>
+              <div class="blog-tags">
+                <a href="#">#Tüketici Deneyimleri</a> /
+                <a href="#">#Alışveriş Deneyimleri</a>
+              </div>
+            </div>
+            <h1 class="blog-title">
+              Online Alışveriş Maceram: Beklentiler vs. Gerçekler
+            </h1>
+            <div class="blog-content">
+              <p>
+                Online alışveriş benim için her zaman heyecan verici ama bir o
+                kadar da riskli bir süreç oldu. Bir ürün alırken sayfalardaki
+                parlak, kusursuz fotoğraflara, "mükemmel kalite" vaat eden
+                açıklamalara ve yorumlara bakarak kendimi alışverişin büyüsüne
+                kaptırıyorum. Özellikle de indirim dönemlerinde, ihtiyacım olsun
+                ya da olmasın sepetime her şeyi doldurma eğilimindeyim. Çünkü
+                fiyatlar o kadar cazip görünüyor ki, "Bu fırsatı
+                kaçırmamalıyım!" hissi ağır basıyor. Ancak işin en ilginç
+                tarafı, sipariş verdikten sonra başlıyor. Çünkü beklemek, bana
+                sabırsızlık krizleri yaşatan bir şey. Kargo takip numarasına her
+                saat bakmak, hatta bazen "Teslimat sürecinde bir aksama mı var?"
+                diye firmaya mesaj atmak gibi alışkanlıklarım var.
+              </p>
+              <p>
+                Gelelim asıl meseleye: Ürün kapıya dayandığında yaşadığım
+                hisler! Kutuyu açarken yaşadığım o heyecan, bazen yerini hayal
+                kırıklığına bırakabiliyor. Görsellerde parlak ve kaliteli
+                görünen bir kıyafet, elime geçtiğinde pazardan alınmış gibi
+                incecik bir kumaşa sahip olabiliyor. Özellikle giyim konusunda
+                yaşadığım en büyük sıkıntı, beden konusundaki tutarsızlık.
+                Medium alıyorum, bazen üzerime yapışıyor, bazen çadır gibi
+                duruyor! Birkaç defa "Bu defa kesin ölçülerini kontrol ettim"
+                diyerek aldığım kıyafetlerin bile beni hüsrana uğrattığı oldu.
+                Hele ki renk konusu… Fotoğrafta pastel tonlarında, yumuşak bir
+                renk gibi görünen ürünün elime neon parlaklıkta gelmesi kadar
+                trajikomik bir şey yok.
+              </p>
+
+              <p>
+                Elektronik ürünlerde de durum çok farklı değil. Bir keresinde
+                çok uygun fiyatlı bir kablosuz kulaklık almıştım. Satıcının
+                açıklamalarına bakılırsa “mükemmel ses kalitesi, ultra uzun pil
+                ömrü, harika bağlantı hızı” gibi özelliklere sahipti. Gerçekte
+                ise kulaklığı şarja takmadığım halde şarjı bitiyor, bağlantı
+                kendi kendine kopuyor, mikrofonu ise karşı tarafa uzaydan yayın
+                yapıyormuşum gibi bir ses gönderiyordu. Destek ekibine
+                yazdığımda “Şarj adaptörünüzü değiştirin, bazen düşük voltajda
+                böyle sorunlar olabilir” gibi cevaplar alarak sinir katsayımı
+                artırdım. Kısacası, bazen ucuz ürünleri alırken aslında kendime
+                ekstra dert satın aldığımı fark ettim.
+              </p>
+              <p>
+                Tabii ki her online alışverişim hüsranla sonuçlanmadı. Bazen
+                beklentilerimi aşan ürünlerle karşılaşmak da mümkün oldu. Birkaç
+                kez kaliteli ve uygun fiyatlı kıyafetler bulduğumda şaşırdım,
+                hatta "Keşke aynı ürünün farklı renklerini de alsaydım" diye
+                pişmanlık yaşadığım bile oldu. Aynı şekilde bazı butik
+                mağazalardan aldığım ürünlerin kalitesi beni mutlu etti. Buradan
+                öğrendiğim ders şu oldu: Eğer satıcı hakkında fazla yorum yoksa
+                ya da yorumların çoğu yapay gibi duruyorsa, genellikle ortada
+                bir sıkıntı vardır. Ayrıca, kullanıcı fotoğrafları olan
+                yorumlara güvenmek de bir nebze daha güvenilir oluyor.
+              </p>
+              <p>
+                Sonuç olarak, online alışveriş benim için hâlâ bir macera. Bazen
+                harika fırsatlar yakalıyorum, bazen ise tamamen hayal
+                kırıklığına uğruyorum. Ama artık eskisi kadar aceleci değilim.
+                Önceden ölçüleri iki kere kontrol edip, satıcıyı araştırıp,
+                yorumları didik didik ederek hareket ediyorum. Yine de bazen
+                dürtüsel alışveriş yapıp “Bu defa kesin iyi çıkacak” diyerek
+                risk aldığım oluyor. Online alışverişin en büyük güzelliği ve
+                tehlikesi de burada sanırım: Asla tam olarak neyle
+                karşılaşacağını bilemiyorsun!
+              </p>
+            </div>
+          </div>
+        </article>
+        <div class="tab-panel-reviews">
+          <h3>
+            "Online Alışveriş Maceram: Beklentiler vs. Gerçekler" için Yorumlar
+          </h3>
+          <div class="comments">
+            <ol class="comment-list">
+              <li class="comment-item">
+                <div class="comment-avatar">
+                  <img src="img/avatars/avatar1.jpg" alt="" />
+                </div>
+                <div class="comment-text">
+                  <ul class="comment-star">
+                    <li>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                    <li>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                    <li>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                    <li>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                  <div class="comment-meta">
+                    <strong>Tom Bombadil</strong>
+                    <span>-</span>
+                    <time>30 Kasım 2024</time>
+                  </div>
+                  <div class="comment-description">
+                    <p>
+                      Aynı durumları ben de yaşadım! Özellikle kıyafetlerde
+                      beden konusu tam bir kumar. Birkaç kez ‘oversize’ diye
+                      aldığım şey pijama gibi bol geldi, başka bir defa ise
+                      ‘rahat kesim’ olan bir elbise dar geldi. Artık online
+                      alışveriş yaparken önce yorumlara, sonra satıcının iade
+                      politikasına bakıyorum. Yine de bazen sürprizler
+                      kaçınılmaz!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="comment-item">
+                <div class="comment-avatar">
+                  <img src="img/avatars/avatar2.jpg" alt="" />
+                </div>
+                <div class="comment-text">
+                  <ul class="comment-star">
+                    <li>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                    <li>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                    <li>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                  <div class="comment-meta">
+                    <strong>Gandalf</strong>
+                    <span>-</span>
+                    <time>30 Kasım 2024</time>
+                  </div>
+                  <div class="comment-description">
+                    <p>
+                      Elektronik ürünler konusunda tamamen katılıyorum!
+                      Geçenlerde ‘mükemmel bas’ vaat eden bir kulaklık aldım,
+                      ama sesi açınca kulağımda teneke çalınıyor sandım. Uygun
+                      fiyatlı diye atladım ama iade etmek için uğraşmak bile
+                      ayrı bir çile oldu. Artık az ama öz alıyorum, markasız
+                      şeylerden uzak duruyorum.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+          <!-- comment form start -->
+          <div class="review-form-wrapper">
+            <h2>Yorum Ekle</h2>
+            <form class="comment-form">
+              <p class="comment-notes">
+                Lütfen İşaretlenmiş Gerekli Alanları Doldurduktan Sonra Gönder
+                Butonuna Basın.
+                <span class="required">*</span>
+              </p>
+              <div class="comment-form-rating">
+                <label>
+                  Puanlamanız
+                  <span class="required">*</span>
+                </label>
+                <div class="stars">
+                  <a href="#" class="star">
+                    <i class="bi bi-star-fill"></i>
+                  </a>
+                  <a href="#" class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </a>
+                  <a href="#" class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </a>
+                  <a href="#" class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </a>
+                  <a href="#" class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="comment-form-comment form-comment">
+                <label for="comment">
+                  Yorum
+                  <span class="required">*</span>
+                </label>
+                <textarea id="comment" cols="50" rows="10"></textarea>
+              </div>
+              <div class="comment-form-author form-comment">
+                <label for="name">
+                  İsim
+                  <span class="required">*</span>
+                </label>
+                <input id="name" type="text" autocomplete="off" />
+              </div>
+              <div class="comment-form-email form-comment">
+                <label for="email">
+                  E-mail
+                  <span class="required">*</span>
+                </label>
+                <input id="email" type="email" autocomplete="off" />
+              </div>
+              <div class="comment-form-cookies">
+                <input id="cookies" type="checkbox" />
+                <label for="cookies">
+                  Bir sonraki adım için adımı, e-posta adresimi ve web sitemi bu
+                  tarayıcıya kaydet.
+                  <span class="required">*</span>
+                </label>
+              </div>
+              <div class="form-submit">
+                <input type="submit" class="submit" onclick="addComment()" />
+              </div>
+            </form>
+          </div>
+          <!-- comment form end -->
+        </div>
+      </div>
+    </section>
+    <!--! single blog end  -->
+
+    <!--! policy start  -->
+    <section class="policy">
+      <div class="container">
+        <ul class="policy-list">
+          <li class="policy-item">
+            <i class="bi bi-truck"></i>
+            <div class="policy-texts">
+              <strong>HIZLI TESLİMAT</strong>
+              <span>45 TL</span>
+            </div>
+          </li>
+          <li class="policy-item">
+            <i class="bi bi-headset"></i>
+            <div class="policy-texts">
+              <strong>7/24 DESTEK</strong>
+              <span>24 Saat Online Hizmet</span>
+            </div>
+          </li>
+          <li class="policy-item">
+            <i class="bi bi-arrow-clockwise"></i>
+            <div class="policy-texts">
+              <strong> 30 GÜN İADE</strong>
+              <span>30 Gün İçinde İade Etmeniz Yeterli</span>
+            </div>
+          </li>
+          <li class="policy-item">
+            <i class="bi bi-credit-card"></i>
+            <div class="policy-texts">
+              <strong> ÖDEME YÖNTEMİ</strong>
+              <span>Güvenli Ödeme</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--! policy end  -->
+
+    <!--! footer start  -->
+    <footer class="footer">
+      <div class="widgets-row">
+        <div class="container">
+          <div class="footer-widgets">
+            <div class="brand-info">
+              <div class="footer-logo">
+                <a href="index.html" class="logo">CANOVA</a>
+              </div>
+              <div class="footer-desc">
+                <p>
+                  Müşteri memnuniyetini önceliğimiz olarak benimsiyor, güvenli
+                  alışveriş deneyimi sunmak için şeffaf iletişim ve adil ticaret
+                  politikalarıyla hizmet veriyoruz.
+                </p>
+              </div>
+              <div class="footer-contact">
+                <p>
+                  <a href="tel:555 555 55 55">(+90) 1234 5678 90</a>
+                  <span>–</span>
+                  <a href="mailto:info@example.com">can@ari.com</a>
+                </p>
+              </div>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Bilgi</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Hakkımızda</a>
+                </li>
+                <li>
+                  <a href="#">Gizlilik Poltikası</a>
+                </li>
+                <li>
+                  <a href="#">İade Politikası</a>
+                </li>
+                <li>
+                  <a href="#">Teslimat Politikası</a>
+                </li>
+              </ul>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Hesap</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Kontrol Paneli</a>
+                </li>
+                <li>
+                  <a href="#">Siparişlerim </a>
+                </li>
+                <li>
+                  <a href="#">Hesap Detayları</a>
+                </li>
+                <li>
+                  <a href="#">Siparişlerimi Takip Et</a>
+                </li>
+              </ul>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Alışveriş</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">En Çok Satanlar</a>
+                </li>
+                <li>
+                  <a href="#">İndirim Oranı</a>
+                </li>
+                <li>
+                  <a href="#">En Son Ürün Sayısı</a>
+                </li>
+                <li>
+                  <a href="#">İndirimli Ürünler</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-row">
+        <div class="container">
+          <div class="footer-copyright">
+            <div class="site-copyright">
+              <p>
+                Telif Hakkı 2024 © E-Commerce Theme. Tüm hakları saklıdır. Can
+                ARI tarafından geliştirildi.
+              </p>
+            </div>
+            <div class="footer-menu">
+              <ul class="footer-menu-list">
+                <li class="list-item">
+                  <a href="#">Gizlilik Poltikası</a>
+                </li>
+                <li class="list-item">
+                  <a href="#">Şartlar ve koşullar</a>
+                </li>
+                <li class="list-item">
+                  <a href="#">iade politikası</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--! footer end  -->
+
+    <!-- javascript  -->
+    <script src="js/main.js" type="module"></script>
+    <script src="js/single-blog.js"></script>
+  </body>
+</html>

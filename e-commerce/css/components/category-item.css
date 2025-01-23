@@ -1,0 +1,33 @@
+.categories .category-item {
+  background-color: #fff;
+  border-radius: 4px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: transform ease 0.2s;
+}
+
+.categories .category-item a {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.categories .category-item .category-image {
+  width: 100%;
+  transition: transform ease 0.2s;
+}
+
+.categories .category-item .category-image:hover {
+  transform: scale(1.05);
+}
+
+.categories .category-item:hover {
+  border: 2px solid #000;
+  border-radius: 5%;
+  transform: scale(1.05);
+}
